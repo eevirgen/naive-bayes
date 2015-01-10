@@ -12,6 +12,8 @@ And formula :
 
 ![alt tag](http://upload.wikimedia.org/math/3/5/e/35e94f179a666c4b5892a11de1b3b29e.png)
 
+Doesn't include "m-estimate of probability", means you're welcome to modify it to work with exact numbers like "height", "width" etc.
+
 Source code is commented enough, I hope it helps someone somewhere.
 
 <h2>erkut evirgen</h2>

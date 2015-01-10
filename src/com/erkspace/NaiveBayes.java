@@ -49,8 +49,7 @@ public class NaiveBayes {
 	
 	HashMap<String, Integer> correctedValues = new HashMap<>();
 	
-	String[] predictions = null;
-	
+	String[] predictions = null;	
 
 	public static void main(String args[]) throws Exception  {
 		NaiveBayes nb = new NaiveBayes();
@@ -61,7 +60,6 @@ public class NaiveBayes {
 		nb.classifyValues();
 		nb.writeTheResults();
 	}
-	
 	
 	/**
      * Basically reads the classified data
@@ -144,7 +142,7 @@ public class NaiveBayes {
 		}
 		NaiveBayesUtils.printArrayToConsole(training_values);
 	}
-	
+
 	/*
 	 * Classifies and the make predictions for the training.txt
 	 * 
@@ -211,8 +209,7 @@ public class NaiveBayes {
 		for(double dbl : myRowValue){
             result = result * dbl;
         }
-		return result;
-		
+		return result;		
 	}
 	
 	/*
